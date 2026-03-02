@@ -91,6 +91,10 @@ body{
     cursor: pointer;
     font-weight: bold;
     transition: 0.3s;
+
+    text-decoration: none;   /* underline remove */
+    color: black;            /* text color */
+    display: inline-block;   /* proper button look */
 }
 
 .btn:hover{
@@ -321,4 +325,5 @@ footer .footer-social a:hover{
     .project-card{
         width: 100%;
     }
+
 }
