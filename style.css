@@ -92,9 +92,11 @@ body{
     font-weight: bold;
     transition: 0.3s;
 
-    text-decoration: none;   /* underline remove */
-    color: black;            /* text color */
-    display: inline-block;   /* proper button look */
+    text-decoration: none !important;
+    color: black !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn:hover{
@@ -327,3 +329,4 @@ footer .footer-social a:hover{
     }
 
 }
+
